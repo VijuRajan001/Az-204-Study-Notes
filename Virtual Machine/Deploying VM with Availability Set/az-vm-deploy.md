@@ -1,4 +1,4 @@
-# Virtual Machine Deployment with IIS basic Workflow
+# Virtual Machine Availability Set Deployment with IIS basic Workflow
 
 
- ![WorkFlow](/Assets/vm-workflow-basic.PNG)
+ ![WorkFlow](/Assets/vm-availabilityset-workflow.PNG)
