@@ -8,7 +8,7 @@
 	2. Bs-Series Economical burstable VMs
 	3. D-Series General purpose compute (Most Production workloads, web apps ,ecommerce etc)
 	4. E-Series Optimised for in-memory hyper-threaded applications (SAP hana)
-	5. G-Series Memory and storage optimised virtual machines (QL and NoSQL databases)
+	5. G-Series Memory and storage optimised virtual machines (SQL and NoSQL databases)
 	6. H-Series High Performance Computing virtual machines (electronic design automation, rendering, Spark, weather modelling, quantum simulation, computational chemistry,)
 	7. Ls-Series Storage optimised virtual machines NoSQL databases such as Cassandra, MongoDB, Cloudera and Redis
 	8. M-Series Memory optimised virtual machines (SAP HANA, SAP S/4 HANA, SQL Hekaton and other large in-memory business critical workloads)
@@ -23,3 +23,4 @@
 - If your Windows VM supports Accelerated Networking, enabling that feature would be the optimal configuration for throughput. 
 - Windows VMs, using Receive Side Scaling (RSS) can reach higher maximal throughput than a VM without RSS. RSS may be disabled by default in a Windows VM. 
 - A proximity placement group is a logical grouping used to make sure that Azure compute resources are physically located close to each other. Proximity placement groups are useful for workloads where low latency is a requirement
+- We can configure an Availability Set ONLY when we deploy a New Virtual Machine, we can't add an existing Virtual Machine to an Availability Set.
